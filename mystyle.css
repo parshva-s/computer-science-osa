@@ -56,6 +56,14 @@ a:hover {
   width: 675px;
 
 }
+.p1 {
+    padding-left: 250px;
+    padding-top: 40px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
 .sample1info {
     width: 400px;
     display: inline-block;
