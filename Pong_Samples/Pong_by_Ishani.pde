@@ -20,7 +20,7 @@ LeftPaddle leftPaddle = new LeftPaddle(xPosition, yPosition, paddleWidth, paddle
 RightPaddle rightPaddle = new RightPaddle(xPosition, yPosition, paddleWidth, paddleHeight);
 Ball ball = new Ball(200, -20, 20, 20);
 void setup() {
-  size(1600,900);
+  size(1600*(7/10),900);
   background(230, 150, 250);
   noLoop(); // game doesn't start right away
 }
@@ -74,19 +74,19 @@ void draw() {
   fill(0);
   rect(0, height*0.9, width, height*0.9); // black instruction box
   fill(255);
-  textSize(18);
+  textSize(18*(7/10));
   text("Welcome to Pong! Click the mouse in front of the paddle who is serving to start the game. To hit the ball, move the paddles as follows:", width*0.01, height*0.92);
   text("The red player presses 'w' to move up, 'a' to move left, 's' to move down', and 'd' to move right. The blue player uses the arrow keys.", width*0.01, height*0.94);
   text("If the ball touches the right end of the screen, the red player earns a point. If the ball touches the left end of the screen, the blue player earns a point.", width*0.01, height*0.96);
-  textSize(22);
+  textSize(22*(7/10));
   text("*NOTE: Paddle movement and level changing can only occur once the mouse is pressed and ball is in play.", width*0.01, height*0.99);
   //speed counter
   rect(width*0.8, height*0.9, width*0.8, height);
   fill(0);
-  textSize(30);
+  textSize(30*(7/10));
   text("Level: ______", width*0.85, height*0.98);
   text(level, width*0.91, height*0.97);
-  textSize(15);
+  textSize(15*(7/10));
   text("Press '8' or '2' to increase or decrease speed", width*0.81, height*0.93);
 }
 

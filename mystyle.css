@@ -46,23 +46,15 @@ a:hover {
     float: left;
     padding-left: 40px;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: lighter;
 }
 .nav {
   padding-top: 20px;
   position: absolute;
-  left: 1200px;
+  right: 0%;
   width: 675px;
 
-}
-.p1 {
-    padding-left: 250px;
-    padding-top: 40px;
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 550;
 }
 .sample1info {
     width: 400px;
@@ -80,7 +72,7 @@ a:hover {
     font-size: 20px;
 }
 hr {
-    width: 1800px;
+    width: 100%;
 }
 a.b {
     color: black;
@@ -93,9 +85,6 @@ li.b {
 }
 h1 {
     text-align: center;
-}
-.pbdJosh {
-  padding-left: -150px;
 }
 canvas {
   border: 1px solid black;

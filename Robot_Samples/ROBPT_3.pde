@@ -12,7 +12,7 @@ float b = 257;
 float h = 0;
 
 void setup() {
-  size(1500, 411);
+  size(1200, 411);
 }
 
 void draw() {
