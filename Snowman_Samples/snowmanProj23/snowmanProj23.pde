@@ -310,8 +310,10 @@ void draw() {
 void mousePressed() {
     
     if (start == 1) {
+    beginShape();
         Snowball snow = new Snowball(s.loc.x, s.loc.y + -2*s.r);
         snowballs.add(snow);
+        endShape();
     
         PVector force = new PVector(mouseX, mouseY).sub(new PVector(s.loc.x, s.loc.y)).limit(35);
     
