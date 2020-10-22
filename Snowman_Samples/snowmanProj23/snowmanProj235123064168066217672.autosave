@@ -10,6 +10,8 @@ Snowman s; // player
 
 Mountain m;
 
+Snowball sb;
+
 boolean[] keys;
 int start = 0; //start game
 boolean setup = false;
@@ -310,10 +312,10 @@ void draw() {
 void mousePressed() {
     
     if (start == 1) {
-        beginShape();
+      beginShape();
         Snowball snow = new Snowball(s.loc.x, s.loc.y + -2*s.r);
         snowballs.add(snow);
-        endShape();
+      endShape();
     
         PVector force = new PVector(mouseX, mouseY).sub(new PVector(s.loc.x, s.loc.y)).limit(35);
     
